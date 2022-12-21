@@ -1,0 +1,100 @@
+.first-block{
+	width:100%;
+	height: 950px;
+}
+.image-block{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 600px;
+	width:600px;
+	height: 600px;
+	background-image: url(../image/wallpaper4.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	border-radius: 0%;
+	box-shadow: inset 0 0 30px rgba(0,0,0,0.7);
+	
+}
+.title-mutants{
+	position: absolute;
+	width:650px;
+	height: 200px;
+	margin-top: 150px;
+	
+}
+.second-block{
+	width:100%;
+	height: 1300px;
+}
+.title-text{
+	width: 500px;
+	position: absolute;
+	margin-top: 370px;
+	color: dimgray;
+}
+.stat{
+	position: absolute;
+	width: 495px;
+	height: 140px;
+	margin-top: 600px;
+}
+.stat-in{
+	text-align: center;
+	position: absolute;
+	width: 166px;
+	height: 140px;
+	border-width: 2px;
+	border-style: solid;
+}
+#in1{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+#in2{
+	margin-left: 168px;
+}
+#in3{
+	margin-left: 336px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.recomendation{
+	position: absolute;
+	width: 505px;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 30px;
+	transition: ease-out 0.2s;
+	padding: 40px;
+	
+}
+.recomendation img{
+	border-radius: 10px;
+}
+.rec-text{
+	width: 220px;
+	height: 250px;
+	margin-left: 290px;
+}
+.recomendation:hover{
+	transform: scale(1.03);
+}
+#rec1{
+	margin-top: 50px;
+}
+#rec2{
+	margin-top: 50px;
+	margin-left: 614px;
+}
+#rec3{
+	margin-top: 410px;
+}
+#rec4{
+	margin-top: 410px;
+	margin-left: 614px;
+}
+#rec5{
+	margin-top: 770px;
+	margin-left: 307px;
+}

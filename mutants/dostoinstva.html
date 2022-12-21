@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mutants</title>
+	  <script defer src="css/transition.js"></script>
+      <link rel="stylesheet" href="css/dostoinstva.css">
+	  <link rel="stylesheet" href="css/general.css" id="dark-link">
+    <meta name="index" content="index"/>
+  </head>
+  <body id="bodyid">
+	<script defer src="css/darktheme.js"></script>
+	<div class="header"></div>
+	<div class="menu">
+		<a href="index.html"><font class="menu-text" href="index.html">Домой</font></a>
+		<div class="menu-button" id="menu_btn" tabindex="0"><font class="menu-text">Меню</font></div>
+		<font class="menu-text" id="theme-text">Тема</font>
+		<label class="switch">
+			<input type="checkbox" id="id-dark-theme">
+			<span class="slider round"></span>
+		  </label>
+		</div>
+		<a href="character.html"><div class="drop-menu" id="drop1"><font class="text-7" id="small-size-main">Персонажи</font></div></a>
+		<a href="abilities.html"><div class="drop-menu" id="drop2"><font class="text-7" id="small-size-main">Навыки</font></div></a>
+		<a href="mutations.html"><div class="drop-menu" id="drop3"><font class="text-7" id="small-size-main">Мутации</font></div></a>
+		<a href="fight.html"><div class="drop-menu" id="drop4"><font class="text-7" id="small-size-main">Конфликты</font></div></a>
+		<a href="dostoinstva.html"><div class="drop-menu" id="drop5"><font class="text-7" id="small-size-main">Достоинства</font></div></a>
+		<div class="main-page">
+			<div class="first-block">
+				<div class="right-block">
+					<img src="image/dostoinstva.png">
+				</div>
+				<div class="right-block-bottom">
+					<font class="text-5" id="small-size-main" align="middle">Содержание<br><br></font><font class="text-5" id="very-small-size">• <a href="#individ">Индивидуальные</a> <br>&nbsp;&nbsp;&nbsp;<a href="#toheroes">достоинства</a><br>• <a href="#public">Общие достоинства</a><br></font>
+				</div>
+				<font class="text-7" id="big-size-main">Достоинства</font><br><br><br>
+				<font class="text-5" id="small-size-sub">В начале игры твой герой получает одно достоинствa из списка, соответствующего роли персонажа. Ты можешь приобретать для своего персонажа новые достоинства, обменивая на них полученный опыт. Для приобретения нового достоинства требуется 5 пунктов опыта. Выбирать можно как из трёх начальных достоинств своего персонажа, так и из перечня общих достоинств, доступных любому мутанту.</font><br><br><br>
+				<a name="individ"></a>
+				<font class="text-6" id="middle-size-main">Индивидуальные достоинства</font><br><br><br>
+				<font class="text-6" id="middle-size-sub">Громила</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Живой таран</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж может проходить проверку проворства, используя телосложение вместо ловкости. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Зловещий вид</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Сея страх в сердце жертвы в результате проверки запугивания, персонаж причиняет на 1 пункт стресса больше, чем обычно. </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Железный кулак</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Урон от безоружной атаки персонажа равен 2, а не 1, как обычно. </font></div>
+				
+			</div>
+			<div class="second-block">
+			<font class="text-6" id="middle-size-sub">Железячник</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Изобретатель</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Ты получаешь модификатор +2 при проверке ремесла, но только когда персонаж создаёт новый предмет, а не чинит его. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Водила</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Находясь за рулём транспортного средства, персонаж получает модификатор +1 при  проверке драки, когда пытается протаранить противника, и при проверке проворства, когда пытается бежать с поля боя. Тот же модификатор действует и при проверке ремесла, когда герой хочет починить или модифицировать транспортное средство. </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Монтёр</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Ты получаешь модификатор +2 при проверке ремесла, но только когда персонаж чинит предмет, а не создаёт что‑то новое. </font></div>
+			</div>
+			<div class="third-block">
+			<font class="text-6" id="middle-size-sub">Разведчик</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Охотник на чудовищ</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2 при проверке наблюдательности, когда выслеживает какого‑нибудь зверя. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Знаток Гнили</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж с этим достоинством получает возможность выбрать новый трюк при  проверке разведки. Этот трюк позволяет отыскать наименее заражённый Гнилью путь — пока персонаж не покинет сектор, считай, что уровень заражения Гнилью в нём на одну ступень ниже обычного значения. </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Мусорщик</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж, который использует это достоинство, получает модификатор +2 при проверке разведки, но в случае успеха обнаруживает не имеющиеся в секторе опасности, а все находящиеся в нём артефакты. Для того чтобы обнаружить ещё и опасности, тебе нужно будет потратить дополнительный ☢, как при выполнении трюка. </font></div>
+			</div>
+			<div class="fourth-block">
+			<font class="text-6" id="middle-size-sub">Делец</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Пройдоха</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Используя деловую хватку при заключении трёхсторонней сделки, персонаж может увеличить вдвое любую из выбранных наград. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Мерзавец</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Подрывая уверенность оппонента в результате особо удачной проверки влияния, персонаж причиняет на 1 пункт стресса больше, чем обычно. </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Шантажист</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Выбери одного из важных персонажей ведущего — твой персонаж получает на него по‑настоящему убойный компромат. Природу и суть этого компромата следует обсудить с ведущим. Компромат позволяет тебе использовать этого персонажа в своих интересах, но в этом деле главное не переусердствовать — в некоторых случаях жертве проще избавиться от шантажиста, чем продолжать удовлетворять его растущие аппетиты. </font></div>
+			</div>
+			<div class="fifth-block">
+			<font class="text-6" id="middle-size-sub">Собачник</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Ищейка</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Пёс твоего персонажа — отлично натасканный следопыт. Герой получает модификатор +2 при проверке дрессировки, когда его собака кого‑нибудь выслеживает. Это достоинство не теряется, если пёс погибает и персонаж заводит нового. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Бойцовый пёс</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Пёс твоего персонажа — смертоносное ручное чудовище. Герой получает модификатор +2 при проверке дрессировки, когда собака дерётся вместо него. Это достоинство не теряется, если пёс погибает и персонаж заводит нового. </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Лучший друг мутанта</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Пёс способен вытащить героя из  любых передряг. При проверках выносливости и проворства твой персонаж может использовать навык дрессировки, а вместо своих характеристик — телосложение и ловкость собаки соответственно. Ты можешь идти на риск как обычно, но повреждения при этом будет получать собака, а пунктов мутации не получит никто. Это достоинство не теряется, если собака погибает и персонаж заводит новую. </font></div>
+			</div>
+			<div class="sixth-block">
+			<font class="text-6" id="middle-size-sub">Хронист</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Костоправ</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж обучен премудростям ампутации конечностей и сшивания плоти — во имя спасения жизней, само собой. Он получает модификатор +2 при проверке лечения, когда работает с травмами. Это не касается ситуаций, когда герой пытается поставить на ноги небоеспособного персонажа. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Заводила</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2, когда воодушевляет персонажа, предпринимающего проверку драки или стрельбы. </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Артист</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Находясь в Ковчеге, один раз за игровую встречу персонаж может выступить перед Народом — рассказать историю у костра, продекламировать поэму или спеть песню. Пройди проверку воодушевления. Каждый полученный в результате ☢ можно обменять на d6 патронов или порций еды. В случае провала обязательно найдётся тот, кому выступление придётся не по вкусу… </font></div>
+			</div>
+			<div class="seventh-block">
+			<font class="text-6" id="middle-size-sub">Босс</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Командир</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2 при проверке лидерства, когда приказывает членам своей банды сражаться. Это достоинство не  действует в  других ситуациях  — например, если персонаж отдаёт приказ заняться вымогательством. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Стрелки</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">У всех членов банды твоего персонажа есть самодельное огнестрельное оружие (пистолеты и винтовки). Пока члены банды находятся в Ковчеге, они сами обеспечивают себя патронами в достаточном (но не избыточном) количестве, а вот во время вылазок в Зону всеми вопросами снабжения придётся заниматься боссу </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Вымогатель</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2 при проверке лидерства, когда приказывает членам своей банды заняться вымогательством. Это достоинство не действует в других ситуациях — например, если персонаж отдаёт приказ атаковать врага. </font></div>
+			</div>
+			<div class="eigth-block">
+			<font class="text-6" id="middle-size-sub">Раб</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Циник</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Когда персонаж получает пункты стресса, при проверке стойкости действует модификатор +2. Во всех остальных случаях это достоинство не работает. </font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Бунтарь</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Каждый ☢, полученный в результате проверки стойкости, дает модификатор +1 во время следующего действия твоего персонажа. Этот модификатор необходимо использовать при первой же возможности — в этом раунде, если персонаж ещё не предпринимал никаких действий, или в следующем, если в этом раунде он уже действовал. </font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Здоровяк</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Когда персонаж получает пункты урона, при проверке стойкости действует модификатор +2. Во всех остальных случаях это достоинство не работает. </font></div>
+			</div>
+			<div class="ninth-block">
+				<a name="public"></a>
+			<font class="text-6" id="middle-size-main">Общие достоинства</font><br><br><br>
+
+				<div class="table-block" id="table1m" tabindex="0"> <font class="text-5" id="small-size-main">Антиквар</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2, когда проходит проверку понимания, пытаясь определить предназначение артефакта Древних </font></div>
+				<div class="table-block" id="table2m" tabindex="0"> <font class="text-5" id="small-size-main">Археолог</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2, когда проходит проверку понимания, пытаясь определить, что представляло собой разрушенное здание или другое найденное в Зоне строение Древних</font></div>
+				<div class="table-block" id="table3m" tabindex="0"> <font class="text-5" id="small-size-main">Аскет</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Чтобы не получать урон от голода, персонажу достаточно есть раз в два дня, а не каждый день, как обычно.</font></div>
+				<div class="table-block" id="table4m" tabindex="0"> <font class="text-5" id="small-size-main">Бугай</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж привык таскать тяжести и может носить с собой вдвое больше предметов, чем обычно</font></div>
+				<div class="table-block" id="table5m" tabindex="0"> <font class="text-5" id="small-size-main">Быстрое<br>выхватывание</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж выхватывает оружие настолько быстро, что ему не нужно использовать манёвр для подготовки этого оружия к бою</font></div>
+				<div class="table-block" id="table6m" tabindex="0"> <font class="text-5" id="small-size-main">Выстрел<br>в упор</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Попадая в цель при проверке стрельбы, персонаж наносит на один пункт урона больше, чем обычно, но только если эта цель находится в рамках ближней дистанции</font></div>
+				
+				
+			</div>
+			<div class="tenth-block">
+			<div class="table-block" id="table1m" tabindex="0"> <font class="text-5" id="small-size-main">Дурные<br>предметы</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">При проверках наблюдательности персонаж может использовать эмпатию вместо смекалки. </font></div>
+				<div class="table-block" id="table2m" tabindex="0"> <font class="text-5" id="small-size-main">Защитная<br>стойка</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2, когда защищается в драке</font></div>
+				<div class="table-block" id="table3m" tabindex="0"> <font class="text-5" id="small-size-main">Крепкий<br>орешек</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Если персонаж становится небоеспособным из‑за урона (т. е. если его телосложение падает до нуля), он может попытаться тут же прийти в себя самостоятельно, без проверки лечения. Пройди проверку выносливости (поскольку телосложение персонажа в данный момент равно 0, придётся ограничиться кубиками навыка). Каждый полученный ☣ немедленно восстанавливает 1 пункт телосложения и, соответственно, утраченную было боеспособность. При осуществлении этой проверки нельзя идти на риск.</font></div>
+				<div class="table-block" id="table4m" tabindex="0"> <font class="text-5" id="small-size-main">Мастер на<br>все руки</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж меняет свою нынешнюю роль на  новую и получает соответствующий новой роли специальный навык, значение которого равно 1. Герой сохраняет свой прежний специальный навык, но теряет возможность его развивать. Он также теряет возможность приобретать присущие старой роли достоинства, но сохраняет те, что уже приобретены. Обрати внимание — для того чтобы сменить роль, нужно веское сюжетное обоснование. Например, для того чтобы стать боссом, необходимо сколотить банду.<br><br>
+                Ограничение: это достоинство доступно только опытным персонажам. Его можно взять только после того, как персонаж станет обладателем трёх других достоинств.</font></div>
+				<div class="table-block" id="table5m" tabindex="0"> <font class="text-5" id="small-size-main">Менталист</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">При проверках проницательности персонаж может использовать смекалку вместо эмпатии.</font></div>
+				<div class="table-block" id="table6m" tabindex="0"> <font class="text-5" id="small-size-main">Могучий удар</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2 при проверке драки, если отказывается от манёвра и в свой ход совершает только действие.</font></div>
+			</div>
+			
+			<div class="eleventh-block">
+			<div class="table-block" id="table1m" tabindex="0"> <font class="text-5" id="small-size-main">Мозгоправ</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2 при проверке лечения, когда пытается поставить на ноги персонажа, ставшего небоеспособным из‑за стресса. </font></div>
+				<div class="table-block" id="table2m" tabindex="0"> <font class="text-5" id="small-size-main">Мясник</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Убивая на  просторах Зоны какое‑нибудь чудовище, персонаж может разделать его на мясо. Количество получаемых при этом порций еды равно изначальному значению телосложения существа. Это достоинство не действует, если убитое существо обладало особенностью «рой/стая». Мясо чудовищ обычно заражено Гнилью, так что это достоинство лучше всего сочетать с достоинством «шеф-повар».</font></div>
+				<div class="table-block" id="table3m" tabindex="0"> <font class="text-5" id="small-size-main">Одиночка</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонажу не требуется компания других мутантов, чтобы восстанавливать сниженную из‑за стресса эмпатию. Всё, что ему для этого нужно — несколько часов размышлений наедине с собой.</font></div>
+				<div class="table-block" id="table4m" tabindex="0"> <font class="text-5" id="small-size-main">Опытный<br>боец</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж сохраняет спокойствие, даже когда вокруг свистят пули, и это позволяет ему обращать в свою пользу любую допущенную противником ошибку. При проверке инициативы ты бросаешь два кубика и выбираешь лучший результат. Кроме того, во время сражения ты можешь применить это достоинство, чтобы увеличить текущее значение инициативы своего персонажа на 2 пункта — это считается манёвром. Пока идёт сражение, ты можешь предпринимать его хоть каждый ход.</font></div>
+				<div class="table-block" id="table5m" tabindex="0"> <font class="text-5" id="small-size-main">Опытный<br>наездник</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж способен приручать плевак и других зверей (по усмотрению ведущего) и использовать их в качестве верховых животных. Чтобы приручить животное, его нужно сначала изловить. Затем персонаж должен трижды пройти проверку влияния, чтобы его приручить. Эту проверку можно проходить не чаще одного раза в сутки. Провал означает, что животное убегает или бросается в атаку на своего объездчика, и процесс приручения (если животное не сбежит или не погибнет) придётся начинать заново. Кроме того, опытный наездник не должен проходить проверку выносливости, если начинает сражение верхом на ездовом животном</font></div>
+				<div class="table-block" id="table6m" tabindex="0"> <font class="text-5" id="small-size-main">Последо-<br>ватель</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Один из персонажей ведущего крайне впечатлён силой личности твоего персонажа и сделает всё, чтобы помочь ему или просто быть рядом. Создайте этого персонажа вместе с ведущим.</font></div>
+			</div>
+			
+			<div class="twelveth-block">
+			<div class="table-block" id="table1m" tabindex="0"> <font class="text-5" id="small-size-main">Привычное<br>оружие</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж — настоящий знаток определённого вида оружия. Выбери один предмет из таблицы холодного оружия, один предмет из таблицы дистанционного оружия или один уже знакомый герою оружейный артефакт. Теперь персонаж будет получать дополнительный модификатор +2 при проверке атаки этим оружием. Ты можешь приобрести это достоинство несколько раз, каждый раз выбирая новое оружие. Обрати внимание, что это достоинство позволяет выбрать в качестве привычного оружия и безоружную атаку, и весь спектр увесистого подручного хлама, который мы назвали импровизированными дубинками </font></div>
+				<div class="table-block" id="table2m" tabindex="0"> <font class="text-5" id="small-size-main">Пытливый ум</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонажу не обязательно спать, чтобы восстанавливать сниженную из‑за смятения смекалку. Помимо сна ему помогает:<br><br>
+                • Создание предметов.<br>
+                • Посещение неисследованных секторов Зоны.<br>
+                • Понимание артефактов.</font></div>
+				<div class="table-block" id="table3m" tabindex="0"> <font class="text-5" id="small-size-main">Работяга</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж получает модификатор +2, когда трудится над общественным проектом</font></div>
+				<div class="table-block" id="table4m" tabindex="0"> <font class="text-5" id="small-size-main">Снайперский<br>выстрел</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Попадая в цель при проверке стрельбы, персонаж наносит на один пункт урона больше, чем обычно, но только если эта цель находится за рамками средней дистанции.</font></div>
+				<div class="table-block" id="table5m" tabindex="0"> <font class="text-5" id="small-size-main">Советчик</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Помогая кому‑нибудь, герой обеспечивает модификатор +2 (а не +1, как обычно), но только если персонаж, которому он помогает, делает всё так, как сказано.</font></div>
+				<div class="table-block" id="table6m" tabindex="0"> <font class="text-5" id="small-size-main">Стоик</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">При проверках выносливости персонаж может использовать смекалку вместо телосложения.</font></div>
+			</div>
+			
+			<div class="thirteenth-block">
+			<div class="table-block" id="table1m" tabindex="0"> <font class="text-5" id="small-size-main">Тело-<br>хранитель</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Если чей‑нибудь выстрел попадает в цель, находящуюся в рамках ближней дистанции от персонажа, герой может попытаться заслонить её своим телом. Для этого он должен пройти проверку проворства (не считается действием). В случае успеха выстрел попадает в твоего персонажа, а не в изначальную цель. При проверке проворства можно идти на риск как обычно. </font></div>
+				<div class="table-block" id="table2m" tabindex="0"> <font class="text-5" id="small-size-main">Трус</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Если чей‑нибудь выстрел попадает в героя, он может попытаться заслониться товарищем, находящимся в рамках ближней дистанции и  согласным заслонить его от попадания. Пройди проверку проворства (не считается действием). В случае успеха выстрел попадает не  в  твоего персонажа, а в его товарища. При проверке проворства можно идти на риск как обычно.</font></div>
+				<div class="table-block" id="table3m" tabindex="0"> <font class="text-5" id="small-size-main">Увёртливость</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Защищаясь в драке, персонаж может использовать ловкость вместо телосложения</font></div>
+				<div class="table-block" id="table4m" tabindex="0"> <font class="text-5" id="small-size-main">Холодный<br>расчёт</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">При проверках проворства персонаж может использовать смекалку вместо ловкости.</font></div>
+				<div class="table-block" id="table5m" tabindex="0"> <font class="text-5" id="small-size-main">Шеф-повар</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Персонаж научился очищать от Гнили найденную в Зоне еду и воду. Пройди проверку знания Зоны — каждый полученный ☢ позволит очистить от  Гнили  d6 порций еды или воды.</font></div>
+				
+			</div>
+			<div class="footer">
+				<div class="footer1"><font class="text-3" id="small-size-sub">Больше в книге "Мутанты: Точка отсчёта"</font></div>
+			</div>
+		
+		</div>
+		
+		<script type="text/javascript" src="css/script.js"></script>
+    </body>
+</html>

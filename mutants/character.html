@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mutants</title>
+	  <script defer src="css/transition.js"></script>
+	  <link rel="stylesheet" href="css/chracter.css">
+	  <link rel="stylesheet" href="css/general.css" id="dark-link">
+    <meta name="index" content="index"/>
+  </head>
+  <body id="bodyid">
+	<script defer src="css/darktheme.js"></script>
+	<div class="header"></div>
+	<div class="menu">
+		<a href="index.html"><font class="menu-text" href="index.html">Домой</font></a>
+		<div class="menu-button" id="menu_btn" tabindex="0"><font class="menu-text">Меню</font></div>
+		<font class="menu-text" id="theme-text">Тема</font>
+		<label class="switch">
+			<input type="checkbox" id="id-dark-theme">
+			<span class="slider round"></span>
+		  </label>
+		</div>
+		<a href="character.html"><div class="drop-menu" id="drop1"><font class="text-7" id="small-size-main">Персонажи</font></div></a>
+		<a href="abilities.html"><div class="drop-menu" id="drop2"><font class="text-7" id="small-size-main">Навыки</font></div></a>
+		<a href="mutations.html"><div class="drop-menu" id="drop3"><font class="text-7" id="small-size-main">Мутации</font></div></a>
+		<a href="fight.html"><div class="drop-menu" id="drop4"><font class="text-7" id="small-size-main">Конфликты</font></div></a>
+		<a href="dostoinstva.html"><div class="drop-menu" id="drop5"><font class="text-7" id="small-size-main">Достоинства</font></div></a>
+		<div class="main-page">
+			<div class="first-block">
+				<div class="right-block">
+					<img src="image/character.png">
+				</div>
+				<div class="right-block-bottom">
+					<font class="text-5" id="small-size-main" align="middle">Содержание<br><br></font><font class="text-5" id="very-small-size">• <a href="#character-creat">Создание персонажа</a><br>• <a href="#character-classes">Классы персонажей</a></font>
+				</div>
+				<font class="text-7" id="big-size-main">Персонажи</font><br><br><br>
+				<font class="text-5" id="small-size-sub">Твой персонаж — твой мутант — это твой аватар, твои глаза и уши в мире игры «Мутанты. Точка отсчёта». Его жизнь и благополучие зависят от твоих решений. Подойди к этой роли серьёзно, действуй так, чтобы твой персонаж был похож на настоящего человека — в этом случае удовольствие от игры будет максимальным. Однако не перестарайся и не пытайся уберечь персонажа от малейшей опасности: цель игры — написать захватывающую историю, а для этого обязательно придётся рискнуть!</font><br><br><br>
+				<a name="character-creat"></a>
+				<font class="text-6" id="middle-size-main">Создание персонажа</font><br><br><br>
+				<font class="text-5" id="small-size-sub">Возьми бланк персонажа и заполни все 12 пунктов:</font><br><br><br>
+				<div class="table-block" id="table1" tabindex="0"> <font class="text-5" id="small-size-main">Роль</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Первое, что предстоит выбрать при создании мутанта, — это его роль. Именно роль определяет, кто ты и какое положение занимаешь в социуме Ковчега. Всего таких ролей восемь: Громила, Железячник, Разведчик, Делец, Собачник, Хронист, Босс, Раб. Лучше всего, если все игроки выберут для своих героев разные роли. Так группа получится более универсальной, а игра — более разнообразной.</font></div>
+				<div class="table-block" id="table2" tabindex="0"> <font class="text-5" id="small-size-main">Имя</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">В описании каждой роли ты найдёшь перечень из пяти мужских и пяти женских имён. Можешь выбрать одно из них или придумать своё.</font></div>
+				<div class="table-block" id="table3" tabindex="0"> <font class="text-5" id="small-size-main">Внешность</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Опиши лицо, тело, а также свою одежду</font></div>
+				<div class="table-block" id="table4" tabindex="0"> <font class="text-5" id="small-size-main">Характеристики</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Начальное значение любой характеристики равно нулю. Создавая персонажа, ты должен распределить 14 пунктов характеристик в пределах от 2 до 4 пунктов на каждую. Единственное исключение — ключевая для выбранной роли характеристика: в неё можно вложить до 5 пунктов. Характеристики: Телосложение, Ловкость, Смекалка, Эмпатия</font></div>
+				<div class="table-block" id="table5" tabindex="0"> <font class="text-5" id="small-size-main">Навыки</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Начальное значение любого навыка равно нулю. Создавая персонажа, ты должен распределить 10 пунктов навыков. Ты можешь вложить до 3 пунктов в любой доступный твоему персонажу навык и  обязан вложить хотя бы 1 пункт в специальный навык, соответствующий выбранной тобой роли. Помни, что значения навыков можно повышать в процессе игры. Подробнее в разделе про навыки.</font></div>
+				<div class="table-block" id="table6" tabindex="0"> <font class="text-5" id="small-size-main">Достоинства</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Достоинства — это свойства, трюки и способности, которые дают тебе преимущество перед другими персонажами. По сравнению с навыками они значительно более узкоспециализированы, а если не брать в расчёт важные с точки зрения игровой механики подробности, основное призвание достоинств — дать тебе возможность ещё более полно раскрыть потенциал созданного тобой персонажа. Сами достоинства описаны на соответствующей страничке.</font></div>
+				<div class="table-block" id="table7" tabindex="0"> <font class="text-5" id="small-size-main">Мутация</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Обычно в начале игры герой получает одну случайную мутацию — игрок должен либо вытянуть карту мутации, либо пройти проверку по таблице мутаций на соответствующей странице.</font></div>
+				<div class="table-block" id="table8" tabindex="0"> <font class="text-5" id="small-size-main">Взаимоотношения</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Создавая своего персонажа, игрок должен указать, в каких отношениях его герой состоит с персонажами других игроков (одного короткого предложения для каждого из них будет вполне достаточно). Каждая роль подразумевает свой собственный набор вариантов таких взаимоотношений — ты можешь воспользоваться ими или придумать на их основе свои собственные</font></div>
+				<div class="table-block" id="table9" tabindex="0"> <font class="text-5" id="small-size-main">Мечта</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Наконец, нужно выбрать для твоего персонажа мечту — что‑то, чего он желает сильнее всего на свете. Как и в случае с взаимоотношениями, каждой роли соответствует собственный набор таких желаний — ты можешь воспользоваться ими или придумать на их основе свои</font></div>
+				<div class="table-block" id="table10" tabindex="0"> <font class="text-5" id="small-size-main">Снаряжение</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Начальное снаряжение: в  описании каждой роли указано, с  каким оружием и  с  каким запасом еды, воды и патронов ты начинаешь игру. Обрати внимание, что железячники также получают один случайный артефакт</font></div>
+				<div class="table-block" id="table11" tabindex="0"> <font class="text-5" id="small-size-main">Ковчег</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Создать Ковчег — первое, что вам нужно сделать, когда все игроки определятся со своими персонажами. Этот несложный процесс состоит из нескольких этапов, которые описаны далее. Используйте копию бланка Ковчега из сайта или скачайте его</font></div>
+				<div class="table-block" id="table12" tabindex="0"> <font class="text-5" id="small-size-main">Берлога</font></div><div class="help" tabindex="0"><font class="text-5" id="small-size-main2">Опиши свою берлогу</font></div>	
+			</div>
+			<div class="second-block">
+				<a name="character-classes"></a>
+			<font class="text-6" id="middle-size-main">Классы персонажей</font><br><br><br>
+				<a href="gromila.html"><div class="recomendation" id="rec1"><img src="image/gromila.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Громила</font><br><br><font class="text-5" id="small-size-sub">Ты выучил главный урок любого бойца: побеждает не тот, кто сильнее, а тот, кто не сдаётся.</font></div></div></a>
+				<a href="zhelezyachnik.html"><div class="recomendation" id="rec2"><img src="image/zhekezyachnik.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Железячник</font><br><br><font class="text-5" id="small-size-sub">Видок у твоих железяк, конечно, ещё тот, но они действительно делают своё дело…</font></div></div></a>
+				<a href="razvedchik.html"><div class="recomendation" id="rec3"><img src="image/razvedchik.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Разведчик</font><br><br><font class="text-5" id="small-size-sub">Только ты знаешь Зону — безопасные пути, петляющие по этому кладбищу ушедшей эпохи.</font></div></div></a>
+				<a href="delez.html"><div class="recomendation" id="rec4"><img src="image/dekez.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Делец</font><br><br><font class="text-5" id="small-size-sub">Патроны? Еда? Вода? Рабы? Ты можешь достать всё что угодно.</font></div></div></a>
+				<a href="sobachnik.html"><div class="recomendation" id="rec5"><img src="image/sobachnik.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Собачник</font><br><br><font class="text-5" id="small-size-sub">Ты уже даже не помнишь, как нашёл свою псину, но она значит для тебя больше, чем любой мутант. </font></div></div></a>
+				<a href="hronsit.html"><div class="recomendation" id="rec6"><img src="image/hronist.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Хронист</font><br><br><font class="text-5" id="small-size-sub">Всё должно быть записано. У Народа должна быть своя летопись, и ничто не должно быть забыто.</font></div></div></a>
+				<a href="boss.html"><div class="recomendation" id="rec7"><img src="image/boss.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Босс</font><br><br><font class="text-5" id="small-size-sub">Что в Древние времена, что сейчас — есть те, кто приказывает, и те, кто подчиняется.</font></div></div></a>
+				<a href="rab.html"><div class="recomendation" id="rec8"><img src="image/rab.png" width="250px" height="250px" align="left"><div class="rec-text"><font class="text-7" id="middle-size-main">Раб</font><br><br><font class="text-5" id="small-size-sub">Хорошо быть рабом — знать своё место, своё предназначение.</font></div></div></a>
+			</div>
+			
+			<div class="footer">
+				<div class="footer1"><font class="text-3" id="small-size-sub">Больше в книге "Мутанты: Точка отсчёта"</font></div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="css/script.js"></script>
+    </body>
+</html>

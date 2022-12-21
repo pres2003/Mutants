@@ -1,0 +1,107 @@
+
+.first-block{
+	width:820px;
+	height: 580px;
+	margin-top: 100px;
+}
+.table-block{
+	position: absolute;
+	width: 270px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px black solid;
+	border-radius: 10px;
+	transition: ease-out 0.2s;
+	cursor: pointer;
+}
+.table-block:hover{
+	box-shadow: inset 0 -100px 0 0;
+}
+.table-block:focus{
+	box-shadow: inset 0 -100px 0 0;
+}
+.table-block:focus-within + .help{
+	visibility: visible;
+	opacity: 1;
+}
+.help:focus{
+	visibility: visible;
+	opacity: 1;
+}
+.table-block:hover #small-size-main{
+	color: white;
+}
+.table-block:focus #small-size-main{
+	color: white;
+}
+.table-block:hover #big-size-main{
+	color: white;
+}
+.table-block:focus #big-size-main{
+	color: white;
+}
+#table1m{
+	width: 165px;
+}
+#table2m{
+	width: 165px;
+	margin-left: 207px;
+}
+#table3m{
+	width: 165px;
+	margin-left: 414px;
+}
+#table4m{
+	width: 165px;
+	margin-left: 621px;
+}
+#table5m{
+	width: 165px;
+	margin-left: 828px;
+}
+#table6m{
+	width: 165px;
+	margin-left: 1033px;
+}
+.help{
+	margin-left: 200px;
+	top: 200px;
+	visibility: hidden;
+	opacity: 0;
+	position: fixed;
+	padding: 30px;
+	border: 1px solid;
+	border-radius: 10px;
+	width: 700px;
+	max-height: 450px;
+	overflow-y: scroll;
+	z-index: 900;
+	background: rgba(255,255,255,0.8);
+	backdrop-filter: blur(3px);
+	transition: ease-out 0.3s;
+	box-shadow: 0px 0px 40px rgba(90,90,90,0.8);
+}
+#small-size-main{
+	text-align: center;
+}
+
+.second-block{
+	height: 220px;
+}
+.third-block{
+	height: 260px;
+}
+.fourth-block{
+	height: 180px;
+}
+.fifth-block{
+	height: 180px;
+}
+.sixth-block{
+	height: 180px;
+}
+.seventh-block{
+	height: 320px;
+}
